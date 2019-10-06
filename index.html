@@ -19,7 +19,6 @@
     color: #152E42;
   }
   .gsc-search-button-v2 {
-    padding: 6px !important;
     margin-left: 0 !important;
     outline: none !important;
     cursor: pointer;
@@ -36,5 +35,9 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(gcse, s);
   })();
+
+window.onload = function(){
+document.getElementById('gsc-i-id1').placeholder = 'Search';
+};
 </script>
 <gcse:search></gcse:search>
