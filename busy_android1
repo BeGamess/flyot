@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Downloading...</title>
+  </head>
+  <body>
+    <h1>Your download is starting any moment!</h1>
+    <a href="download.html">It's done</a>
+  </body>
+</html>
+<style>
+  h1 {
+    color: #008083;
+  }
+</style>
+<script>
+  window.location.assign("FlyotBrowser.apk");
+</script>
