@@ -7,7 +7,7 @@
     <div class="versions">
       <h3>Version 1</h3>
       <p>- Release of Flyot Browser</p>
-      <a href="https://drive.google.com/uc?authuser=0&id=16aHNlwUspgpPSeX7qU7Py4V8Wl3YRubY&export=download">DOWNLOAD</a>
+      <a onclick='busy_downloading()' href="https://drive.google.com/uc?authuser=0&id=16aHNlwUspgpPSeX7qU7Py4V8Wl3YRubY&export=download">DOWNLOAD</a>
     </div>
   </body>
 </html>
@@ -27,3 +27,8 @@
     text-decoration: none;
   }
 </style>
+<script>
+  function busy_downloading() {
+    window.open('busy.html', 'newwindow', 'width=300,height=250')
+  }
+</script>
