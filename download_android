@@ -1,1 +1,35 @@
-
+<html>
+  <head>
+    <title>Flyot - Download Android</title>
+    <link rel="icon" href="favicon flyot.ico" />
+  </head>
+  <body>
+    <h1>Download Flyot Browser for Android</h1>
+    <div class="versions">
+      <h1>Android</h1>
+      <h3>Version 1 (October 9, 2019)</h3>
+      <p>- Release of Flyot Browser</p>
+      <a href="busy_android1.html">DOWNLOAD</a>
+    </div>
+    <a href="index.html">Back</a>
+  </body>
+</html>
+<style>
+  .versions {
+    background-color: #008083;
+  }
+  .versions h1 {
+    color: white;
+  }
+  .versions h3 {
+    color: white;
+  }
+  .versions p {
+    color: white;
+  }
+  .versions a {
+    background-color: lime;
+    color: white;
+    text-decoration: none;
+  }
+</style>
